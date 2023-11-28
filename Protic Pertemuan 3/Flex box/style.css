@@ -1,0 +1,42 @@
+.container {
+  background-color: blue;
+  width: 80%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  
+}
+/* flex BOX  */
+.satu {
+  background-color: blueviolet;
+  width: 200px;
+  height: 200px;
+  /* order: ; */
+  /* flex-grow: 1; */
+  flex-shrink: 3;
+  /* margin-left: 10px; */
+  /* margin-top: 330px; */
+
+}
+
+.dua {
+  background-color: rgb(32, 147, 30);
+  width: 200px;
+  height: 200px;
+  /* order: ; */
+  /* flex-grow: 1 ; */
+  /* margin-left: 10px; */
+  /* margin-top:   330px; */
+}
+
+.tiga {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  /* flex-grow: 1; */
+  /* margin-left: 10px; */
+  /* margin-top:   330px; */
+}

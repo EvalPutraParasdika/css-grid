@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Pendaftaran</title>
+
+  <style>
+  .jarak1{
+    padding-left: 10%;
+  }
+  .kode{
+    padding-left: 0%;
+    padding-right: 10%;
+  }
+  .judul{
+    padding-left: 0%;
+    padding-right: 10%;
+  }
+  .pengarang{
+    padding-left: 0%;
+    padding-right: 30%;
+  }
+  .penerbit{
+    padding-left: 0%;
+    padding-right: 40%;
+  }
+  .isbn{
+    padding-left: 0%;
+    padding-right: 60%;
+  }
+  .tahun{
+    padding-left: 0%;
+    padding-right: 0%;
+    
+  }
+  </style>
+</head>
+<body>
+  <h1>FORM PENDAFTARAN BUKU</h1><br><br>
+  <table>
+    <thead>
+      <tr>
+        <th>
+          <label for="kode_buku" class="kode">Kode Buku</label> 
+        </th>
+        <th class="satu" style="padding-left: 1cm;">:</th>
+        <th>
+          <input type="text" name="kode" id="" class="inkode">
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <label for="judul_buku" class="judul">Judul Buku</label>
+        </th>
+        <th style="padding-left: 1cm;" >:</th>
+        <th>
+          <input type="text" name="judul" id="">
+        </th>
+        <tr>
+        <th>
+          <label for="pengarang" class="pengarang">Pengarang</label>
+        </th>
+        <th style="padding-left: 1cm;">:</th>
+        <th>
+          <input type="text" name="judul" id="">
+        </th>
+        <tr>
+          <th>
+            <label for="penerbit" class="penerbit">Penerbit</label>
+          </th>
+          <th style="padding-left: 1cm;">:</th>
+          <th>
+            <input type="text" name="penerbit" id="">
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <label for="isbn" class="isbn">ISBN</label>
+          </th>
+          <th style="padding-left: 1cm;">:</th>
+          <th>
+            <input type="text" name="isbn" id="">
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <label for="tahun" class="tahun">Tahun Terbit</label>
+          </th>
+          <th style="padding-left: 1cm;">:</th>
+          <th>
+            <select name="tahun" id="" style="margin-right: 70%;">
+              <option value="2000">2000</option>
+              <option value="2001">2001</option>
+              <option value="2002">2002</option>
+              <option value="2003">2003</option>
+              <option value="2004">2004</option>
+              <option value="2005">2005</option>
+            </select>
+          </th>
+        </tr>
+      </tr>
+    </thead>
+  </table>
+  <input type="submit" value="simpan" style="margin-left: 12%;">
+  
+

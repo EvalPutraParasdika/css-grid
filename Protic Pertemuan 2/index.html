@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STUDY JAM II FORM</title>
+</head>
+<body>
+  <h2>Web basic</h2>
+  <p>Formulir Pendaftaran</p>
+  <form action="">
+    <fieldset>
+      <legend>Informasi Pribadi</legend>
+      <label for="nama">Nama</label>
+      <input type="text" name="nama"><br>
+
+      <label for="umur">Umur</label>
+      <input type="number" name="umur"><br>
+
+      <label for="email">Email</label>
+      <input type="email" name="email"><br>
+
+      <label for="password">Password</label>
+      <input type="password" name="password"><br><br>
+
+      <label for="jenis_kelamin">Jenis Kelamin</label><br>
+      <input type="radio" name="jenis_kelamin" value="laki laki">Laki-laki</input><br>
+      <input type="radio" name="jenis_kelamin" value="perempuan">Perempuan</input>
+    </fieldset>
+    <fieldset>
+      <legend>Hobi</legend>
+      <input type="checkbox" name="hobi" value="Masak" id="">Masak</input><br>
+      <input type="checkbox" name="hobi" value="Mancing" id="">Mancing</input><br>
+      <input type="checkbox" name="hobi" value="Membaca" id="">Membaca</input><br>
+      <input type="checkbox" name="hobi" value="Olahraga" id="">Olahraga</input><br>
+      <input type="checkbox" name="hobi" value="Menonton" id="">Menonton</input><br>
+    </fieldset>
+    <fieldset>
+      <legend>Mata Kuliah Favorit</legend>
+      <label for="matkul">Mata Kuliah Favorit</label>
+      <select name="matkul" id="">
+        <option value="pweb">pweb</option>
+        <option value="matematika">matematika</option>
+        <option value="alpro">alrpo</option>
+        <option value="english">english</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>Pesan Tambahan</legend>
+      <label for="pesan">Pesan</label>
+      <textarea name="pesan" id="" cols="40" rows="5" maxlength="100"></textarea>
+    </fieldset>
+    <br>
+    <input type="submit" value="kirim">
+  </form>
+  
+</body>
+</html>
